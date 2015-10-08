@@ -12,4 +12,8 @@ class Fizzbuzz
     is_divisible_by_three?(num) && is_divisible_by_five?(num)
   end
 
+  def fizzbuzz(num)
+    "fizz"
+  end
+
 end
