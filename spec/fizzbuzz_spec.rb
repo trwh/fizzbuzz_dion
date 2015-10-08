@@ -26,4 +26,8 @@ describe Fizzbuzz do
       expect(subject.is_divisible_by_three_and_five?(21)).to be_falsey
   end
 
+  it 'outputs \'fizz\' if the number is divisible by 3' do
+      expect(subject.fizzbuzz(3)).to eq 'fizz'
+  end
+
 end
