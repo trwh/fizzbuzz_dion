@@ -13,7 +13,20 @@ class Fizzbuzz
   end
 
   def fizzbuzz(num)
-    "fizz"
+
+    if is_divisible_by_three_and_five?(num)
+      return 'fizzbuzz'
+    end
+
+    if is_divisible_by_three?(num)
+      return 'fizz'
+    end
+
+    if is_divisible_by_five?(num)
+      return 'buzz'
+    end
+
+    num
   end
 
 end
